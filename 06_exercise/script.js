@@ -1,5 +1,5 @@
 
-let weekday = [ 1, 2, 3, 4, 5, 6, 7 ];
+let day = [ 1, 2, 3, 4, 5, 6, 7 ];
 
 function weekNumbersToWords (weekday)
 {
