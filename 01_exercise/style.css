@@ -24,14 +24,15 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .upper_body { 
 	width: 300px; 
 	height: 150px;
 	display: flex; 
-} 
+	margin-left: 90px;
+}
 
 .left_arm, .right_arm { 
 	width: 40px; 
@@ -71,6 +72,11 @@ h1 {
 	margin-left: 45px; 
 } 
 
+.right_leg{
+margin-top: -120px;
+
+}
+
 .left_leg:hover {
 	-webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
@@ -82,7 +88,9 @@ h1 {
 .right_leg { 
 	margin-left: 30px; 
 }
-
+.right_leg{
+	margin-left: 110px;
+}
 .left_eye, .right_eye { 
 	width: 20px; 
 	height: 20px; 
